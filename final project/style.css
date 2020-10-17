@@ -1,0 +1,170 @@
+
+/* Final project CSS */
+
+/* Custom Grid System - Fix container width */
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Reset CSS */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+	color: inherit; 
+	text-decoration: none;
+}
+
+button,
+input,
+textarea {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+button::focus,
+button::active,
+input::focus,
+input::active,
+textarea::focus,
+textarea::active, {
+	outline: none;
+	box-shadow: none;
+}
+
+
+ul,
+ol,
+li {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+
+/* landing page CSS */
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+    color: #2B292D;
+    letter-spacing: -0.01em;
+}
+
+/* 768px 이하 (Desktop) */
+
+@media screen and (min-width: 768px) {
+    /* Reset CSS */
+    p {
+        font-size: 22px;
+        line-height: 2.36362626;
+    }
+}
+
+.landing {
+    background-color: #FDDED8;
+    width: 100vw;
+    height: 568px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing h1 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 1;
+    /* letter-spacing: -2.222222222222222em; */
+    text-align: center;
+    color: #2B292D;
+}
+
+
+.landing span {
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.375;
+    text-align: center;
+    color: #2B292D;
+}
+
+
+.landing-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.apply-button {
+    padding: 12px 34px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
+    color: white;
+    background-color: #3040C4;
+}
+
+.learn-button {
+    padding: 12px 32px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
+    color: #3040C4;
+    background-color: white;
+}
+
+
+
+/* testimonials page CSS */
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 15px;
+    background-color: #F4F5F7;
+}
+
+.testimonials dt {
+    margin-bottom: 16px;
+    width: 290px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.363636363636364;
+    text-align: left;
+    color: #2B292D;
+}
+
+.testimonials-center {
+    margin-bottom: 40px;
+}
+
+.testimonials dd {
+    width: 290px;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #2B292D;
+}
+
+
+
+
