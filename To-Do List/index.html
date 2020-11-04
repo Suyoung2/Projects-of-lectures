@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,300;0,400;0,500;0,600;1,700&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/73d609c9e9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="entrie">
+        <header>
+            <h1 class="title">
+                Shopping List
+            </h1>
+        </header>
+        <main class="mainList">
+                <ul class="lists">
+                    <li class="listContent">
+                        <p>우유</p>
+                        <button type="button" class="removeBtn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </li>
+                </ul>
+            <div class="addContent">
+                <input type="text" id="textBox" placeholder="추가 항목을 입력해주세요">
+                <button type="button" class="addBtn">
+                    <i class="fas fa-plus-circle"></i>
+                </button>
+            </div>
+        </main>
+    </div>
+    <script src="./main.js" defer></script>
+</body>
+</html>
